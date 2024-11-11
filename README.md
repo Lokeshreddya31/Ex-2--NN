@@ -18,7 +18,7 @@ Models have to be trained with a high number of already classified samples. It i
 Data is almost never perfect: a preprocessing phase has to take care of missing features, uncorrelated data and, as we are going to see soon, scaling.<BR>
 Perceptron requires linearly separable samples to achieve convergence.
 The math of Perceptron. <BR>
-If we represent samples as vectors of size n, where ‘n’ is the number of its features, a Perceptron can be modeled through the composition of two functions. The first one f(x) maps the input features  ‘x’  vector to a scalar value, shifted by a bias ‘b’
+If we represent samples as vectors of size n, where ‘n’ is the number of its features, a Perceptron can be modeled through the composition of two functions. The first one f(x) maps the input features  ‘x’  vector to a scalar value, shifted by a bias ‘b’.
 f(x)=w.x+b
  <BR>
 A threshold function, usually Heaviside or sign functions, maps the scalar value to a binary output:
